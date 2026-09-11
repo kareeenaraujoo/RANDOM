@@ -10,6 +10,26 @@
    <p>Informe os limites inferios e superior do sorteio</p>
 
    <label for="Limite inferior"></label>
-   <input type="Number">
+   <input type="Number" id="limiteinferior" step="1"> 
+   <br><br>
+   <label for="Limite Superior"</label>
+    <input type="number" id="limitesuperior" step="1">
+    <br><br>
+   <button onclick="sortearnumero()">Sortear Número:</button>
+   <p .id="resultado">o resultado aparecerá aqui!</p>
 </body>
 </html>
+<script>
+    function sortearnumero(){
+        const texininferior = document.getElementById("limiteinferior").value; 
+        const texininferior = document.getElementById("limitesupertior").value;
+
+        const quantidadedenumeros = limiteinferior - limitesuperior + 1;
+
+        const resultadoMultiplicado = numeroaleatorio * quantidade numeros;
+
+        constSorteio = math.floor(resultadoMutiplicado) + limiteinferior;
+        document.getElementById(resultado).textContent
+
+    }
+</script>
